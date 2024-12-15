@@ -83,6 +83,8 @@ function Header() {
             <Link href={"/products"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Product</li></Link>
             <Link href={"/pagesRoute"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Pages</li></Link>
             <Link href={"/about-us"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>About</li></Link>
+            <Link href={"/contact"}><li className='text-[14px] leading-[15px] font-medium hover:text-[#007580] '>Contact</li></Link>
+
           </ul>
 
           <div className='flex gap-[8px] items-center'>
