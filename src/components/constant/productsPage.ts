@@ -1,4 +1,5 @@
 export  interface Product_data {
+    id: number,
     badge: boolean,
     badgeText: string,
     badgeColor: string,
@@ -14,6 +15,7 @@ export  interface Product_data {
 
 export const Product_Data: Product_data[] = [
     {
+        id: 1,
         badge: true,
         badgeText: "New",
         badgeColor: "green",
@@ -25,6 +27,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 2,
         badge: true,
         badgeText: "sales",
         badgeColor: "orange",
@@ -36,6 +39,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 3,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -47,6 +51,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 4,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -58,6 +63,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 5,
         badge: true,
         badgeText: "New",
         badgeColor: "green",
@@ -69,6 +75,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 6,
         badge: true,
         badgeText: "sales",
         badgeColor: "orange",
@@ -80,6 +87,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 7,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -91,6 +99,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 8,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -102,6 +111,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 9,
         badge: true,
         badgeText: "New",
         badgeColor: "green",
@@ -113,6 +123,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 10,
         badge: true,
         badgeText: "sales",
         badgeColor: "orange",
@@ -124,6 +135,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 11,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -135,6 +147,7 @@ export const Product_Data: Product_data[] = [
         shopBg: "red",
     },
     {
+        id: 12,
         badge: false,
         badgeText: "New",
         badgeColor: "green",

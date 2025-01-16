@@ -1,4 +1,6 @@
+
 export  interface Our_data {
+    id: number,
     badge: boolean,
     badgeText: string,
     badgeColor: string,
@@ -14,6 +16,7 @@ export  interface Our_data {
 
 export const OurProduct_Data: Our_data[] = [
     {
+        id: 1,
         badge: true,
         badgeText: "New",
         badgeColor: "green",
@@ -25,6 +28,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 2,
         badge: true,
         badgeText: "sales",
         badgeColor: "orange",
@@ -36,6 +40,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 3,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -47,6 +52,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 4,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -58,6 +64,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 5,
         badge: true,
         badgeText: "New",
         badgeColor: "green",
@@ -69,6 +76,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 6,
         badge: true,
         badgeText: "sales",
         badgeColor: "orange",
@@ -80,6 +88,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 6,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -91,6 +100,7 @@ export const OurProduct_Data: Our_data[] = [
         shopBg: "red",
     },
     {
+        id: 7,
         badge: false,
         badgeText: "New",
         badgeColor: "green",

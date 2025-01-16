@@ -1,4 +1,5 @@
 export  interface Feat_data {
+    id: number,
     badge: boolean,
     badgeText: string,
     badgeColor: string,
@@ -14,6 +15,7 @@ export  interface Feat_data {
 
 export const featureProduct_Data: Feat_data[] = [
     {
+        id: 1,
         badge: true,
         badgeText: "New",
         badgeColor: `bg-green`,
@@ -25,6 +27,7 @@ export const featureProduct_Data: Feat_data[] = [
         shopBg: `bg-gray`,
     },
     {
+        id: 2,
         badge: true,
         badgeText: "sales",
         badgeColor: `bg-orange`,
@@ -36,6 +39,7 @@ export const featureProduct_Data: Feat_data[] = [
         shopBg: `bg-gray`,
     },
     {
+        id: 3,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
@@ -47,6 +51,7 @@ export const featureProduct_Data: Feat_data[] = [
         shopBg: `bg-gray`,
     },
     {
+        id: 4,
         badge: false,
         badgeText: "New",
         badgeColor: "green",
