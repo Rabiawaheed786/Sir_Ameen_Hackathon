@@ -41,7 +41,7 @@ function Page() {
             </div>
 
             <Button className="w-full md:w-[212px] h-[50px] md:h-[63px] flex items-center justify-center gap-[9px] text-[#FFFFFF] bg-[#029FAE] mt-[24px] md:mt-[32px] rounded-full">
-              <FiShoppingCart size={24} md={29} color="white" />
+              <FiShoppingCart size={24} color="white" />
               <p className="text-[16px] md:text-[20px] leading-[22px] font-medium">
                 Add To Cart
               </p>
